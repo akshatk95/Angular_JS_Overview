@@ -1,0 +1,36 @@
+/*[
+{"key":"Maths","value":78},
+
+{"key":"History","value":75},
+
+{"key":"Geography","value":88},
+
+{"key":"Physics","value":72},
+
+{"key":"Chemistry","value":70},
+
+{"key":"Biology","value":90},
+
+{"key":"English","value":85},
+
+{"key":"Computer","value":79},
+
+]*/
+/*data='[
+[1,12],
+[2,5],
+[3,18],
+[4,13],
+[5,7],
+[6,4],
+[7,9],
+[8,10],
+[9,15],
+[10,22]
+]';*/
+
+
+/*data = '[{"name" : "Harry", "age" : "32"}]';*/
+
+
+ data_responsive='[{"name": "A", "data": [1, 4, 3, 2]}, {"name": "B", "data": [6, 4, 2, 5]}, {"name": "C", "data": [8, 4, 3, 2]}]';

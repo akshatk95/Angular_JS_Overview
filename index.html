@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sample Bootstrap Page With Highcharts</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#day1">Day 1</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day2">Day 2</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day3">Day 3</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day4">Day 4</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day5">Day 5</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day6">Day 6</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day7">Day 7</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#day8">Day 8</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Angular js Overview</h1>
+                <hr>
+                <p>This is just a sample website integrating all the major features of angularjs into a single page application.</p>
+                <a href="#day1" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <section class="no-padding" id="day1">
+   <!--   <div class="container-fluid">
+            <div class="row no-gutter popup-gallery"> -->
+            <h1>Day 1 :-- Highcharts Using HTML</h1>
+                <div id="container1"> </div>  
+                <div id="container2"> </div>   
+                <div id="container3"> </div>   
+                <div id="container4"> </div>       <!-- class="col-lg-4 col-sm-6" -->
+                
+
+</section>
+
+<section class="no-padding" id="day2">
+   <!--   <div class="container-fluid">
+            <div class="row no-gutter popup-gallery"> -->
+            <h1>Day 2 :-- Highcharts Using Internal JSON data</h1>
+                <div id="container5"> </div>  
+                <div id="container6"> </div>   
+                <div id="container7"> </div>   
+                <div id="container8"> </div>       <!-- class="col-lg-4 col-sm-6" -->
+                
+
+</section>
+
+<section class="no-padding" id="day3">
+   <!--   <div class="container-fluid">
+            <div class="row no-gutter popup-gallery"> -->
+            <h1>Day 3 :-- Highcharts Using External JSON data</h1>
+                <div id="container9"> </div>  
+                <div id="container10"> </div>   
+                <div id="container11"> </div>   
+                      <!-- class="col-lg-4 col-sm-6" -->
+                
+
+</section>
+
+<section class="no-padding" id="day4">
+   <!--   <div class="container-fluid">
+            <div class="row no-gutter popup-gallery"> -->
+            <h1>Day 4 :-- Integrating Highcharts Into A Template</h1>
+                <div id="container12"> </div>  
+                <div id="container13"> </div>   
+                <div id="container14"> </div>   
+                      <!-- class="col-lg-4 col-sm-6" -->
+                
+
+</section>
+
+<section class="no-padding" id="day5">
+<h1>Day 5 :-- Integrating Highcharts With AngularJS</h1>
+<div ng-controller="myController">
+
+     <hc-chart options="chartOptions">Placeholder for generic chart</hc-chart>
+     <hc-pie-chart title="Browser usage" data="pieData">Placeholder for pie chart</hc-pie-chart>
+
+</div>
+
+</section>
+
+<section class="no-padding" id="day6">
+<h1>Day 6 :-- AngularJS Filters And Services</h1>
+<div>
+<h2>Custom Filter</h2>
+  <p>The following is an example of a custom filter. For all names in the list, the characters at even positions are in upper case while the characters at odd positions are in lower case.</p>
+<ul ng-controller="namesCtrl">
+<li ng-repeat="x in names">
+    {{x | myFilter}}
+</li>
+</ul>
+
+</div>
+<h2>Customized Order By Filter</h2>
+<p>Click the table headers to change the sorting order:</p>
+
+<div ng-controller="namesCtrl2">
+
+<table border="1" width="100%">
+<tr>
+<th ng-click="orderByMe('id')">ID</th>
+<th ng-click="orderByMe('name')">Name</th>
+<th ng-click="orderByMe('marks')">Marks</th>
+</tr>
+<tr ng-repeat="x in names | orderBy:myOrderBy">
+<td>{{ x.id }}</td>
+<td>{{ x.name }}</td>
+<td>{{ x.marks }}</td>
+</tr>
+</table>
+</div>
+<div ng-controller="namesCtrl3">
+<h2>Search Based Filter</h2>
+<p>Type the search words:</p>
+
+<p><input type="text" ng-model="search_term"></p>
+
+<ul>
+  <li ng-repeat="x in names | filter:search_term">
+    {{ x }}
+  </li>
+</ul>
+
+</div>
+<div ng-controller="myHex">
+<h2>A service that converts a number to its hexadecimal equivalent:-</h2>
+<h3>The hexadecimal value of 137 is:</h3>
+
+<h3>{{hexadec}}</h3>
+
+</div>
+</section>
+
+<section class="no-padding" id="day7">
+<h1>Day 7 :-- AngularJS Forms, Events And Validations</h1>
+<div ng-controller="formCtrl">
+<h2>A Sample Angular Form With A Default Value</h2>
+  <form novalidate>
+    First Name:<br>
+    <input type="text" ng-model="student.fname"><br>
+    Last Name:<br>
+    <input type="text" ng-model="student.lname">
+    <br><br>
+    <button ng-click="reset()">RESET</button>
+  </form>
+  <p>student = {{student}}</p>
+  <p>default = {{default}}</p>
+</div>
+<div ng-controller="CoordinatesCtrl">
+<h2>An Angular Event Example</h2>
+<h3 ng-mousemove="coordinatesFunc($event)">See My Coordinates In The Entire Line!!!</h3>
+
+<p>Coordinates: {{x_coordinate + ', ' + y_coordinate}}</p>
+<p>Hover over the heading to display the value of x and y cooordinates using the event object.</p>
+
+</div>
+<div>
+<h2>Angular Validation Example</h2>
+
+<form ng-controller="validation_Controller" 
+name="myForm" novalidate>
+
+<p>Username:<br>
+<input type="text" name="name" ng-model="name" required>
+<span ng-show="myForm.name.$dirty && myForm.name.$invalid">
+<span ng-show="myForm.name.$error.required">Username is a required field.</span>
+</span>
+</p>
+
+<p>Email:<br>
+<input type="email" name="email" ng-model="email" required>
+<span ng-show="myForm.email.$dirty && myForm.email.$invalid">
+<span ng-show="myForm.email.$error.required">Email is a required field.</span>
+<span ng-show="myForm.email.$error.email">Email is in the wrong format.</span>
+</span>
+</p>
+
+<p>
+<input type="submit"
+ng-disabled="myForm.name.$dirty && myForm.name.$invalid ||  
+myForm.email.$dirty && myForm.email.$invalid">
+</p>
+
+</form>
+</div>
+</section>
+   
+
+   <section class="no-padding" id="day8">
+   <h1>Day 8 :-- AngularJS Routing</h1>
+<h2>Welcome to Route</h2>
+        <div class="nav">
+          <a href="#tomato" class="button">Tomato</a>
+          <a href="#banana" class="button">Banana</a>
+        </div>
+    <div ng-view=""></div>
+  </section> 
+
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+<!-- Highcharts JavaScript -->
+<script src="js/Day1.js"></script>
+<script src="js/Day2.js"></script>
+ <script type="text/javascript" src="data/data_pie.json"></script>
+  <script type="text/javascript" src="data/data_responsive.json"></script>
+<script type="text/javascript" src="data/data_stacked_bar.json"></script>
+<script src="js/Day3.js"></script>
+<script src="js/Day4.js"></script>
+<script src="js/Day5.js"></script>
+<script src="js/Day6_Day7_Day8.js"></script>
+</html>
